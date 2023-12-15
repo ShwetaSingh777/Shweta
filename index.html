@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.svg">
+    <link rel="stylesheet" href="bs/css/bootstrap.css">
+    <link rel="stylesheet" href="bs/css/mdb.css">
+    <link rel="stylesheet" href="bs/css/style.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+    <link rel="stylesheet" media="(min-width:501px) and (max-width:768px)" href="tablet.css">
+    <link rel="stylesheet" media="(min-width:769px) and (max-width:1200px)" href="laptop.css">
+    <link rel="stylesheet" media="(min-width:1201px)" href="wide.css">
+    <title>Shweta | Portfolio</title>
+
+    <style>
+
+        .custom-cursor {
+            cursor: url('Images/cursor.png'), pointer;
+        }
+
+        .navbar{
+            box-shadow: none !important;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 2;
+            background-color: whitesmoke;
+        }
+        .active-head{
+            color: grey !important;
+        }
+        a{
+            text-align: center;
+            color: whitesmoke !important;
+            font-family: 'Poppins', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        #image {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            box-shadow: none;
+            z-index: 1;
+        }
+
+
+        body{
+            background-color: #0d0d0d;
+            color: whitesmoke;
+        }
+        h1, h3{
+            font-family: 'Playfair Display', serif;
+            color: whitesmoke;
+        }
+        h5{
+            font-family: 'Didact Gothic', sans-serif;
+            color: whitesmoke;
+        }
+        h4{
+            font-family: 'Playfair Display', serif;
+            color: whitesmoke;
+            text-align: center !important;
+        }
+        hr{
+            background-color: grey;
+        }
+
+
+        .footer-text{
+            font-family: 'Didact Gothic', sans-serif;
+            color: whitesmoke !important;
+        }
+        .links{
+            font-family: 'Didact Gothic', sans-serif;
+            font-size: 15px;
+        }
+        .links a{
+            color: whitesmoke !important;
+            margin-right: 20px;
+        }
+        .footer-box{
+            height: 40vh;
+            width: 100%;
+            background-color: #0d0d0d !important;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--------------navbar-------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+    <a class="navbar-brand" href="index.html">
+        <img src="Images/Silver_logo.png" class="custom-cursor" width="100px">
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#simpleNavbar">
+        <span class="navbar-toggler-icon custom-cursor"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="simpleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="Projects.html"><b>PROJECTS</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="2D.html"><b>2D</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="3D.html"><b>3D</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="Sketchbook.html"><b>SKETCHBOOK</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="About_Me.html"><b>ABOUT ME</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!----------------------Content------------------->
+<div class="matter main-body mb-5">
+
+    <!-------------Rotating image---------------->
+    <div>
+        <img id="image" src="Images/Rotate_logo_white.png" alt="Rotating Image">
+    </div>
+
+    <!-----------------Main video--------------->
+    <div>
+        <video width="100%" class="mb-4" autoplay loop muted>
+            <source src="Images/Intro/Intro_video.mp4" type="video/mp4">
+        </video>
+    </div>
+<!-----------------Projects------------------------>
+    <div class="padding-right">
+        <h1 class="mt-5">PROJECTS</h1>
+        <hr class="mb-5">
+        <div class="mb-5 row">
+            <div class="col-md-5">
+                <a href="The%20Gallant%20Batch.html"><img src="Images/Intro/Image_01.png" class="custom-cursor" width="100%" alt=""></a>
+            </div>
+            <div class="col-md-7 padding-top">
+                <h3>The Gallant Batch</h3>
+                <h5>The One That Rewrote The Rules</h5>
+                <p>Inspired by the need fpr women's empowerment in India, "The Gallant Batch" magazine project blends elegance
+                and boldness in branding and editorial design, aiming to foster a sense of sisterhood and motivate women through
+                untold stories.</p>
+            </div>
+        </div>
+
+        <div class="mb-5 row">
+            <div class="col-md-7 padding-top right-align">
+                <h3>Un-taboo with Jane</h3>
+                <h5>The One Where Laughter Educates</h5>
+                <p>Driven by a passion for women's health, I tackled the D&AD New Bloods 2023 brief, spreading awareness about
+                    abortion through comic strips in pads in India.</p>
+            </div>
+            <div class="col-md-5">
+                <a href="Un-taboo%20with%20Jane.html"><img src="Images/Intro/Image_02.png" class="custom-cursor" width="100%" alt=""></a>
+            </div>
+        </div>
+
+        <div class="mb-5 row">
+            <div class="col-md-5">
+                <a href="Reincarne.html"><img src="Images/Intro/Image_03.png" class="custom-cursor" width="100%" alt=""></a>
+            </div>
+            <div class="col-md-7 padding-top">
+                <h3>Reincarne</h3>
+                <h5>The One With Paper Couture</h5>
+                <p>Through extensive brainstorming, constant digital prototyping, and hands-on origami, I breathed life into
+                the brand, complemented by self-taught professional photography skills.</p>
+            </div>
+        </div>
+
+        <div class="mb-5 row">
+            <div class="col-md-7 padding-top right-align">
+                <h3>Viraasat</h3>
+                <h5>The One Where I Fell In Love With My Culture</h5>
+                <p>I immersed myself in Varanasi's aesthetics, initially grappling with translating complexity into minimalistic
+                illustration, but through iterative refinement, I successfully crafted a fitting logo and poster.</p>
+            </div>
+            <div class="col-md-5">
+                <a href="Virasat.html"><img src="Images/Intro/Image_04.png" class="custom-cursor" width="100%" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!----------------Experiments-------------------->
+    <h1 class="margin-top">EXPERIMENTS</h1>
+    <hr class="mb-5">
+    <div class="row">
+        <div class="col-md-4">
+            <a href="2D.html"><img src="Images/Intro/Image_05.png" class="custom-cursor mb-4" width="100%" alt=""></a>
+            <h4><b>2D</b></h4>
+        </div>
+        <div class="col-md-4">
+            <a href="Sketchbook.html"><img src="Images/Sketchbook/Sketch_10.png" class="custom-cursor mb-4" width="100%" alt=""></a>
+            <h4><b>Sketchbook</b></h4>
+        </div>
+        <div class="col-md-4">
+            <a href="3D.html"><img src="Images/Intro/Image_06.png" class="custom-cursor mb-4" width="100%" alt=""></a>
+            <h4><b>3D</b></h4>
+        </div>
+    </div>
+</div>
+
+<!----------------Footer---------------------->
+<hr>
+
+<div class="footer-box padding-text">
+    <h5 class="footer-text"><b>
+        <b>Shweta</b> is an emerging designer based in New Delhi, India.
+        <br>She loves telling stories through an amalgation of <b>illustration, animation, and typography.</b></b>
+    </h5>
+    <div class="links mt-4">
+        <a href="https://www.instagram.com/your_silver_hat/" target="_blank" class="custom-cursor"><u>Instagram</u></a>
+        <a href="https://www.behance.net/shwetasingh43" target="_blank" class="custom-cursor"><u>Behance</u></a>
+        <a href="mailto:silverhatexpress@gmail.com" target="_blank" class="custom-cursor"><u>Email</u></a>
+        <a href="https://www.artstation.com/shweta6" target="_blank" class="custom-cursor"><u>ArtStation</u></a>
+        <a href="https://www.linkedin.com/in/shweta-0609aa222/" target="_blank" class="custom-cursor"><u>LinkedIn</u></a>
+    </div>
+</div>
+
+
+<script>
+    const image = document.getElementById('image');
+    let isScrolling = false;
+    let rotationInterval;
+    let rotationAngle = 0;
+    const rotationSpeed = 1; // Adjust the rotation speed as needed
+
+    function rotateImage() {
+        rotationAngle += rotationSpeed;
+        image.style.transform = `rotate(${rotationAngle}deg)`;
+    }
+
+    function startRotation() {
+        rotationInterval = setInterval(() => {
+            rotateImage();
+        }, 4); // Adjust the rotation speed as needed
+    }
+
+    function stopRotation() {
+        clearInterval(rotationInterval);
+    }
+
+    function handleScroll() {
+        if (!isScrolling) {
+            isScrolling = true;
+            startRotation();
+        }
+
+        clearTimeout(isScrolling);
+        isScrolling = setTimeout(() => {
+            isScrolling = false;
+            stopRotation();
+        }, 200); // Adjust the delay value as needed
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+</script>
+<script src="bs/js/jquery.js"></script>
+<script src="bs/js/popper.js"></script>
+<script src="bs/js/bootstrap.js"></script>
+<script src="bs/js/mdb.js"></script>
+
+</body>
+</html>
+

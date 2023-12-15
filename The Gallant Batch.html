@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.svg">
+    <link rel="stylesheet" href="bs/css/bootstrap.css">
+    <link rel="stylesheet" href="bs/css/mdb.css">
+    <link rel="stylesheet" href="bs/css/style.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+    <link rel="stylesheet" media="(min-width:501px) and (max-width:768px)" href="tablet.css">
+    <link rel="stylesheet" media="(min-width:769px) and (max-width:1200px)" href="laptop.css">
+    <link rel="stylesheet" media="(min-width:1201px)" href="wide.css">
+    <title>The Gallant Batch | Editorial Design</title>
+
+    <style>
+
+        .custom-cursor {
+            cursor: url('Images/cursor.png'), pointer;
+        }
+
+        .navbar{
+            box-shadow: none !important;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 2;
+        }
+        .active-head{
+            color: grey !important;
+        }
+        a{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        #image {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            box-shadow: none;
+            z-index: 1;
+        }
+
+
+        body{
+            background-color: whitesmoke;
+            color: black;
+        }
+        h2,h4{
+            font-family: 'Playfair Display', serif;
+        }
+        .body-text{
+            font-size: 18px;
+            font-family: 'Didact Gothic', sans-serif;
+        }
+        .left-text-padding{
+            padding-top: 25vh !important;
+            padding-bottom: 25vh !important;
+            padding-right: 25vh !important;
+        }
+
+
+        .left-arrow{
+            display: block;
+            width: 50%;
+            float: left;
+            font-size: 25px;
+            color: black;
+        }
+        .left-arrow a,.right-arrow a{
+            color: black !important;
+        }
+        .right-arrow{
+            display: block;
+            width: 50%;
+            float: right;
+            text-align: right;
+            font-size: 25px;
+            color: black;
+        }
+
+        .footer-text{
+            font-family: 'Didact Gothic', sans-serif;
+            color: black !important;
+        }
+        .links{
+            font-family: 'Didact Gothic', sans-serif;
+            font-size: 15px;
+        }
+        .links a{
+            color: #0d0d0d !important;
+            margin-right: 20px;
+        }
+        .footer-box{
+            height: 40vh;
+            width: 100%;
+            background-color: white !important;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--------------navbar-------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+    <a class="navbar-brand" href="index.html">
+        <img src="Images/Silver_logo.png" class="custom-cursor" width="100px">
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#simpleNavbar">
+        <span class="navbar-toggler-icon custom-cursor"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="simpleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active-head custom-cursor" href="Projects.html"><b>PROJECTS</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="2D.html"><b>2D</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="3D.html"><b>3D</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="Sketchbook.html"><b>SKETCHBOOK</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link custom-cursor" href="About_Me.html"><b>ABOUT ME</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!----------Main Image------------------>
+<div>
+    <video width="100%" autoplay loop muted>
+        <source src="Images/TGB/TGB_1.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!----------------------Content------------------->
+<div class="matter main-body my-5">
+
+    <!-------------Rotating image---------------->
+    <div>
+        <img id="image" src="Images/Rotate_logo.png" alt="Rotating Image">
+    </div>
+
+    <!----------------------Project Overview--------------------->
+    <div class="row top-margin">
+        <div class="col-md-8">
+            <h2>The Gallant Batch</h2>
+            <p class="body-text">Empowering women, especially in a country like India has become a necessity. From the day we
+                are born, we are just compared to other girls and mostly in terms of beauty. As a kid, I used to think that a
+                girl's importance depended on her beauty. Isn't it sad? We only see movies where a princess is saved by a
+                prince. We are never told the stories of how to fight for each other, instead of against each other. The
+                Gallant Batch is a magazine that captures the power of women-driven strikes from Indian history. I did the
+                whole branding and editorial design for it.</p>
+        </div>
+        <div class="col-md-4 right-align mt-5"><b>
+            <h4>SOFTWARE USED</h4>
+            <h6 class="body-text">Adobe Photoshop
+                <br>Cinema 4D
+                <br>Adobe After Effects</h6>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <video width="100%" autoplay loop muted>
+                <source src="Images/TGB/TGB_12.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="col-md-8 mb-4">
+            <img src="Images/TGB/TGB_13.png" width="100%">
+        </div>
+    </div>
+    <div class="mb-4">
+        <img src="Images/TGB/TGB_4.png" width="100%">
+    </div>
+
+    <!----------------Process----------------->
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <video width="100%" autoplay loop muted>
+                <source src="Images/TGB/TGB_5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="col-md-8 right-align right-text-padding">
+            <h2>Strategy</h2>
+            <p class="body-text">
+                The Gallant Batch is a newly launched magazine about women's empowerment. <br>
+                The problem is that most women degrade each other as they feel insecure about themselves. <br>
+                However, those women are never taught how to stand up and fight for other women. <br>
+                We need to allow women to realize the power of sisterhood <br>
+                so that women no longer feel insecure about other women <br>
+                helping to empower women through the magazine.<br> </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="Images/TGB/TGB_6.png" width="100%">
+        </div>
+        <div class="col-md-6 mb-4">
+            <img src="Images/TGB/TGB_7.png" width="100%">
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <img src="Images/TGB/TGB_8.png" width="100%">
+    </div>
+
+    <!---------------Type Guidelines----------------->
+    <div class="row">
+        <div class="col-md-8 left-text-padding">
+            <h2>Brand Guidelines</h2>
+            <p class="body-text">
+                <b>Theme-</b> Elegantly Bold (Many people think that elegance is a woman's weakness, rather it is their strength.
+                <br><b>Tone Of Voice-</b> Elegant, Modern, United, and Futuristic
+                <br><b>Logo-</b> I have extended the lines of the T and G alphabet to cover words as an umbrella to show how women look bold together.
+                <br><b>Type-</b>  I chose Didonesque Roman as the primary font as its contrast in strokes and x-height gives
+                an elegant yet bold look. Josefin Slab as the secondary font skillfully balances it, and its sharp edges
+                give the view of a constrained world where women live.
+                <br><b>Color Palette-</b> I used black and white to give a modern contrast.
+            I deliberately used pink to show how powerful can this color be, if it is accompanied by other strong colors.
+            Lastly, I used a tint of neon green to add a more powerful and engaging vibe to the magazine
+                <br><b>3d Experiments-</b> Lastly, I learnt and experimented a lot on Cinema 4D. I hope you like it ;)</p>
+        </div>
+        <div class="col-md-4 mt-5">
+            <div class="mb-4">
+                <video width="100%" autoplay loop muted>
+                    <source src="Images/TGB/TGB_9.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-5 mb-4">
+            <video width="100%" autoplay loop muted>
+                <source src="Images/TGB/TGB_10.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="col-md-7 mb-4">
+            <img src="Images/TGB/TGB_11.png" width="100%">
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <img src="Images/TGB/TGB_14.png" width="100%" alt="">
+    </div>
+
+    <div>
+        <video width="100%" class="mb-4" autoplay loop muted>
+            <source src="Images/TGB/TGB_15.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!---------------------Arrows-------------------->
+    <div class="row px-4">
+        <div class="left-arrow">
+            <a href="Un-taboo%20with%20Jane.html" class="mb-5 custom-cursor">&#8592; Previous</a>
+        </div>
+        <div class="right-arrow pb-5">
+            <a href="Reincarne.html" class="custom-cursor"> Next &#8594;</a>
+        </div>
+    </div>
+</div>
+
+<!----------------Footer---------------------->
+
+<hr>
+
+<div class="footer-box padding-text">
+    <h5 class="footer-text"><b>
+        <b>Shweta</b> is an emerging designer based in New Delhi, India.
+        <br>She loves telling stories through an amalgation of <b>illustration, animation, and typography.</b></b>
+    </h5>
+    <div class="links mt-4">
+        <a href="https://www.instagram.com/your_silver_hat/" target="_blank" class="custom-cursor"><u>Instagram</u></a>
+        <a href="https://www.behance.net/shwetasingh43" target="_blank" class="custom-cursor"><u>Behance</u></a>
+        <a href="mailto:silverhatexpress@gmail.com" target="_blank" class="custom-cursor"><u>Email</u></a>
+        <a href="https://www.artstation.com/shweta6" target="_blank" class="custom-cursor"><u>ArtStation</u></a>
+        <a href="https://www.linkedin.com/in/shweta-0609aa222/" target="_blank" class="custom-cursor"><u>LinkedIn</u></a>
+    </div>
+</div>
+
+
+<script>
+    const image = document.getElementById('image');
+    let isScrolling = false;
+    let rotationInterval;
+    let rotationAngle = 0;
+    const rotationSpeed = 1; // Adjust the rotation speed as needed
+
+    function rotateImage() {
+        rotationAngle += rotationSpeed;
+        image.style.transform = `rotate(${rotationAngle}deg)`;
+    }
+
+    function startRotation() {
+        rotationInterval = setInterval(() => {
+            rotateImage();
+        }, 4); // Adjust the rotation speed as needed
+    }
+
+    function stopRotation() {
+        clearInterval(rotationInterval);
+    }
+
+    function handleScroll() {
+        if (!isScrolling) {
+            isScrolling = true;
+            startRotation();
+        }
+
+        clearTimeout(isScrolling);
+        isScrolling = setTimeout(() => {
+            isScrolling = false;
+            stopRotation();
+        }, 200); // Adjust the delay value as needed
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+</script>
+<script src="bs/js/jquery.js"></script>
+<script src="bs/js/popper.js"></script>
+<script src="bs/js/bootstrap.js"></script>
+<script src="bs/js/mdb.js"></script>
+
+</body>
+</html>
+
